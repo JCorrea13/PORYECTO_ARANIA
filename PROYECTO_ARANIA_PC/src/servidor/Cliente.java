@@ -1,5 +1,6 @@
 package servidor;
 
+
 import java.util.*;
 import java.net.Socket;
 import java.io.*;
@@ -11,12 +12,14 @@ public class Cliente {
 	static int PUERTO;
 
 	private Socket socket;
-	private ObjectOutputStream flujoSalida;
-	private ObjectInputStream flujoEntrada;
+	private DataOutputStream flujoSalida;
+	private DataInputStream flujoEntrada;
 	private Timer t;
-	private CallBack callback;
+	private CallBackServer callback;
+	private CallBackMsg callbackmsg;
 	private boolean conexion = true;
-	private Paquete paquete;
+	private byte [] datos;
+	private final int TAM_PAQUETE = 1024;
 
 	public Cliente(String HOST, int PUERTO){
 		this.HOST = HOST;
@@ -25,10 +28,12 @@ public class Cliente {
 		abreConexion(false);
 	}
 
-	public Cliente(Socket socket, CallBack callback){
+	public Cliente(Socket socket, CallBackServer callback, CallBackMsg callBackMsg) {
+		this.callbackmsg = callBackMsg;
 		this.callback = callback;
 		this.socket = socket;
 		abreConexion(true);
+
 	}
 
 	public void abreConexion(boolean hsocket){
@@ -36,11 +41,13 @@ public class Cliente {
 		try{
 			if(!hsocket)
 				socket = new Socket(HOST, PUERTO);
-			flujoEntrada = new ObjectInputStream(socket.getInputStream());
-			flujoSalida = new ObjectOutputStream(socket.getOutputStream());
+
+			flujoEntrada = new DataInputStream(socket.getInputStream());
+			flujoSalida = new DataOutputStream(socket.getOutputStream());
 
 		}catch(Exception e){
 			System.out.println("Error: " + e);
+			e.printStackTrace();
 		}
 
 		t = new Timer();
@@ -51,16 +58,23 @@ public class Cliente {
 		private int size;
 
 		public void run(){
-			Paquete paquete;
-			try{
+			try {
 
-				if(flujoEntrada == null) return;
+				byte[] buffer = new byte[10000];
+				if (flujoEntrada == null) {
+					return;
+				}
 
-				paquete = (Paquete) flujoEntrada.readObject();
-				if(paquete != null)
-					setPaquete(paquete);
+				size = flujoEntrada.read(buffer);
+				if (size == -1){
+					desconexion();
+				} else if (size > 0) {
+					//System.out.println(new String(buffer));
+					setDatos(buffer, size);
+				}
 
 			}catch(Exception e){
+				e.printStackTrace();
 				desconexion();
 			}
 		}
@@ -78,25 +92,42 @@ public class Cliente {
 		}catch(Exception e){}
 	}
 
-	public void write(String datos){
+	public void write(byte [] datos){
 
-		try{	
-			flujoSalida.write(datos.getBytes());
+		try{
+			flujoSalida.write(datos);
 		}catch(Exception e){
-                       // System.out.println("Error: " + e);
-                }
+        	System.out.println("Error: " + e.getStackTrace());
+		}
 	}
 
-	public interface CallBack{
+	public interface CallBackServer {
 		void desconexion(Cliente cliente);
 	}
 
-	public synchronized Paquete getPaquete() {
-		return paquete;
+	public interface CallBackMsg {
+		void onMsg(byte [] datos, int size);
 	}
 
-	public synchronized void setPaquete(Paquete paquete) {
-		this.paquete = paquete;
-		System.out.println("Nuevo paquete recibido");
+	public synchronized byte [] getDatos() {
+		return datos;
+	}
+
+
+
+	public synchronized void setDatos(byte [] datos, int size) {
+		this.datos = datos;
+		if (callbackmsg != null){
+			callbackmsg.onMsg(datos, size);
+		}
+		//System.out.println("Nuevo paquete recibido: ["+ size +"]");
+	}
+
+	public static void main(String[] args) {
+		System.out.printf("Inicio programa");
+		Cliente c = new Cliente("localhost", 1500);
+
+		//c.write("Hola desde el cliente".getBytes());
+		System.out.println("Paquete escrito");
 	}
 }

@@ -1,52 +1,84 @@
-// Use this code to test your motor with the Arduino board:
+#define TIEMPO90 1000
+#define TIEMPO45 500
+#define TIEMPOAVANCE 1000
 
-// if you need PWM, just use the PWM outputs on the Arduino
-// and instead of digitalWrite, you should use the analogWrite command
 
 // --------------------------------------------------------------------------- Motors
 int motor_left[] = {9, 10};
 int motor_right[] = {7, 8};
 
-// --------------------------------------------------------------------------- Setup
+//-----------------------------------------Variables Ultrasonico
+const int pinecho = 11;
+const int pintrigger = 12;
+
+
 void setup() {
-Serial.begin(9600);
+  Serial.begin(9600);
+ 
+  pinMode(motor_left[0], OUTPUT);
+  pinMode(motor_left[1], OUTPUT);
+  pinMode(motor_right[0], OUTPUT);
+  pinMode(motor_right[1], OUTPUT);
 
-// Setup motors
-int i;
-for(i = 0; i < 2; i++){
-pinMode(motor_left[i], OUTPUT);
-pinMode(motor_right[i], OUTPUT);
+  //Configuracion pines de ultrasonico
+  pinMode(pinecho, INPUT);
+  pinMode(pintrigger, OUTPUT);
 }
 
-}
 
-// --------------------------------------------------------------------------- Loop
+char dato;
 void loop() { 
 
-drive_forward();
-delay(1000);
-motor_stop();
-Serial.println("1");
+    
+  if(Serial.available()){
+     dato = Serial.read();
 
-drive_backward();
-delay(1000);
-motor_stop();
-Serial.println("2");
+    switch(dato){
+      case 'B':
+              turn_left();
+              delay(TIEMPO90);
+              motor_stop();
+              Serial.write((byte)1);
+              break;
+      case 'C':
+              turn_left();
+              delay(TIEMPO45);
+              motor_stop();
+              Serial.write((byte)1);
+              break;
+      case 'D':
+              drive_forward();
+              delay(TIEMPOAVANCE);
+              motor_stop();
+              Serial.write((byte)1);
+              break;
+      case 'E':
+              turn_right();
+              delay(TIEMPO45);
+              motor_stop();
+              Serial.write((byte)1);
+              break;
+      case 'F':
+              turn_right();
+              delay(TIEMPO90);
+              motor_stop();
+              Serial.write((byte)1);
+              break;
+      case 'G':
+              drive_backward();
+              delay(TIEMPOAVANCE);
+              motor_stop();
+              Serial.write((byte)1);
+              break;
+      case 'H':
+              Serial.write((byte)getDistancia());
+              break;
+    }
 
-turn_left();
-delay(1000);
-motor_stop();
-Serial.println("3");
+  }
 
-turn_right();
-delay(1000);
-motor_stop();
-Serial.println("4"); 
+  delay(200);
 
-motor_stop();
-delay(1000);
-motor_stop();
-Serial.println("5");
 }
 
 // --------------------------------------------------------------------------- Drive
@@ -90,4 +122,22 @@ digitalWrite(motor_left[1], LOW);
 
 digitalWrite(motor_right[0], LOW); 
 digitalWrite(motor_right[1], HIGH); 
+}
+
+unsigned int tiempo;
+int getDistancia(){
+  
+  digitalWrite(pintrigger, LOW);
+  delayMicroseconds(2);
+  digitalWrite(pintrigger, HIGH);
+  // EL PULSO DURA AL MENOS 10 uS EN ESTADO ALTO
+  delayMicroseconds(10);
+  digitalWrite(pintrigger, LOW);
+ 
+  // MEDIR EL TIEMPO EN ESTADO ALTO DEL PIN "ECHO" EL PULSO ES PROPORCIONAL A LA DISTANCIA MEDIDA
+  tiempo = pulseIn(pinecho, HIGH);
+ 
+  // LA VELOCIDAD DEL SONIDO ES DE 340 M/S O 29 MICROSEGUNDOS POR CENTIMETRO
+  // DIVIDIMOS EL TIEMPO DEL PULSO ENTRE 58, TIEMPO QUE TARDA RECORRER IDA Y VUELTA UN CENTIMETRO LA ONDA SONORA
+  return tiempo / 58;  
 }

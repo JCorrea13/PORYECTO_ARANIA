@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jc.app_arania.MainActivity">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rootRL"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/arania">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_anchor="@+id/include"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/include"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/include"
+        app:layout_constraintTop_toTopOf="@+id/include"
+        app:layout_constraintVertical_bias="1.0"
+        android:layout_marginLeft="0dp"
+        android:keepScreenOn="true"
+        />
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/content_main"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_height="0dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="25dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_width="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <Button
+        android:id="@+id/EscribeSerial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escribe Serial"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/include" />
+
+    <EditText
+        android:id="@+id/textConeccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="475dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Desconectado"
+        app:layout_constraintLeft_toLeftOf="@+id/button"
+        app:layout_constraintTop_toTopOf="@+id/button"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginLeft="153dp" />
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="376dp"
+        android:layout_height="145dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@drawable/arania"
+        tools:layout_editor_absoluteY="159dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_alignBottom="@+id/textConeccion"
+        android:layout_alignLeft="@+id/textLog"
+        android:layout_alignStart="@+id/textLog"
+        android:layout_marginBottom="61dp" />
+
+        <TextView
+            android:id="@+id/textLog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Inicio"
+            android:textColor="#FFFF00"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="530dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

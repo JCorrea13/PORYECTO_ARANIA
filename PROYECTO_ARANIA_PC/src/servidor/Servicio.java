@@ -1,22 +1,26 @@
 package servidor;
 
+import jdk.nashorn.internal.codegen.CompilerConstants;
+import principal.ManejadorComandos;
+
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
-import java.util.*;
 
-public class Servicio implements Runnable, Cliente.CallBack{
+public class Servicio implements Runnable, Cliente.CallBackServer {
 
 	private final int PUERTO;
 	private static ArrayList<Cliente> clientes = new ArrayList();
 	private volatile boolean terminar = false;
 	private ServerSocket servidor;
+	private Cliente.CallBackMsg  callBackMsg;
 
 	private Socket socketCliente;
 
-	public Servicio(int PUERTO){
+	public Servicio(int PUERTO, Cliente.CallBackMsg callBackMsg){
 		this.PUERTO = PUERTO;
+		this.callBackMsg = callBackMsg;
 	}
 
 	public void inicia(){
@@ -34,9 +38,8 @@ public class Servicio implements Runnable, Cliente.CallBack{
 
 			while(true){
 				socketCliente = servidor.accept();
-				clientes.add(new Cliente(socketCliente, this));
+				clientes.add(new Cliente(socketCliente, this, callBackMsg));
 				System.out.println("Conexión establecida");
-
 			}
 
 		}catch(IOException e){
@@ -44,7 +47,7 @@ public class Servicio implements Runnable, Cliente.CallBack{
 		}
 	}
 
-	public void enviaDatos(String datos){
+	public void enviaDatos(byte [] datos){
 		for(Cliente c: clientes)
 			c.write(datos);
 	}

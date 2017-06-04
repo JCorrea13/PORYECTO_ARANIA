@@ -1,6 +1,11 @@
 package servidor;
 
+import javax.imageio.ImageIO;
 import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.BufferedWriter;
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
 import java.io.Serializable;
 
 /**
@@ -11,21 +16,23 @@ import java.io.Serializable;
  */
 
 public class Paquete implements Serializable{
+    static final long serialVersionUID = 1020100102103120123L;
 
-    private Image img;
+    private String msg;
+    private byte [] img;
     private int distancia;
     private int vector [];
 
-    public Paquete(Image img, int distancia) {
+    public Paquete(byte [] img, int distancia) {
         this.img = img;
         this.distancia = distancia;
     }
 
-    public Image getImg() {
+    public byte [] getImg() {
         return img;
     }
 
-    public void setImg(Image img) {
+    public void setImg(byte [] img) {
         this.img = img;
     }
 
@@ -41,8 +48,21 @@ public class Paquete implements Serializable{
         return vector;
     }
 
-    public void setVector(int magitud, int angulo) {
+    public void setVector(int magitud, int angulo) throws IOException {
         this.vector[0] = magitud;
         this.vector[1] = angulo;
+    }
+
+    public String getMsg() {
+        return msg;
+    }
+
+    public void setMsg(String msg) {
+        this.msg = msg;
+    }
+
+    @Override
+    public String toString(){
+        return msg;
     }
 }
