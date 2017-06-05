@@ -22,6 +22,8 @@ public class Main extends Application {
 
     public static void main(String[] args) {
         System.out.println("Inicio Programa");
+
+        System.out.println(Math.round(5.9));
         //launch(args);
 
         /*int a1 = 1;

@@ -36,7 +36,7 @@ public class Servicio implements Runnable, Cliente.CallBackServer {
 			servidor = new ServerSocket(PUERTO);
 			System.out.println("Servidor prendido en el puerto: " +  PUERTO);
 
-			while(true){
+			while(!terminar){
 				socketCliente = servidor.accept();
 				clientes.add(new Cliente(socketCliente, this, callBackMsg));
 				System.out.println("Conexión establecida");
@@ -56,4 +56,9 @@ public class Servicio implements Runnable, Cliente.CallBackServer {
 		System.out.println("Conexión terminada con un cliente");
 		clientes.remove(cliente);
 	}
+
+    public void close() {
+		for (Cliente c : clientes) desconexion(c);
+		terminar = true;
+    }
 }
