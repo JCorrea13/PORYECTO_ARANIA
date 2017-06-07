@@ -390,14 +390,14 @@ public class Controller {
         btn_distancia.setOnAction((x) -> Main.ejecutaComando('H'));
     }
 
-    public  void onImagenAck(byte [] img){
+    public  void onImagenAck(byte [] img) throws IOException {
         Image i = new Image(new ByteArrayInputStream(img));
 
-        BufferedImage bi = new BufferedImage(480,640,BufferedImage.TYPE_3BYTE_BGR);
-        bi.getRaster().setDataElements(0,0, 480, 640, img);
+        BufferedImage bi = ImageIO.read(new ByteArrayInputStream(img));
 
         Mat m = img2Mat(bi);
         Mat rotada = new Mat();
+       // new HoughCirclesRun().displayImage("test",new HoughCirclesRun().toBufferedImage(rotada));
 
         Core.flip(m, rotada, 1);
 
@@ -428,7 +428,7 @@ public class Controller {
         {
             out = new Mat(640, 480, 16);
             data = new byte[640 * 480 * (int)out.elemSize()];
-            int[] dataBuff = in.getRGB(0, 0, 640, 480, null, 0, 320);
+            int[] dataBuff = in.getRGB(0, 0, 640, 480, null, 0, 640);
             for(int i = 0; i < dataBuff.length; i++)
             {
                 r = (byte) ((dataBuff[i] >> 16) & 0xFF);

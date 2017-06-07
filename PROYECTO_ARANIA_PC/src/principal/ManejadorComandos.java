@@ -4,6 +4,7 @@ import com.sun.deploy.util.SessionState;
 import servidor.Cliente;
 import servidor.Servicio;
 
+import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.Arrays;
 import java.util.List;
@@ -37,7 +38,7 @@ public class ManejadorComandos implements Cliente.CallBackMsg{
     }
 
     @Override
-    public void onMsg(byte[] datos, int size) {
+    public void onMsg(byte[] datos, int size) throws IOException {
 
         switch (comando_actual){
             case 'A':
@@ -55,7 +56,7 @@ public class ManejadorComandos implements Cliente.CallBackMsg{
 
     }
 
-    private void leeComandoA(byte [] datos, int size){
+    private void leeComandoA(byte [] datos, int size) throws IOException {
 
         int i = 0;
         if(primer){
@@ -94,7 +95,7 @@ public class ManejadorComandos implements Cliente.CallBackMsg{
 
     public interface CallBack{
         void onAck(char comando, int ack);
-        void onAck(char comando, int ack, byte [] img);
+        void onAck(char comando, int ack, byte [] img) throws IOException;
     }
 
     public void enviaComando(char comando){

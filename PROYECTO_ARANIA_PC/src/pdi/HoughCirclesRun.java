@@ -49,7 +49,7 @@ public class HoughCirclesRun {
             Imgproc.circle(src_gray, center, radius, new Scalar(100,200,0), 3, 8, 0 );
         }
         Image tmpImg = toBufferedImage(src_gray);
-        displayImage("Hough Circle Transform Demo", tmpImg);
+        //displayImage("Hough Circle Transform Demo", tmpImg);
 
         if(centro>0&&centro<=80)
         {

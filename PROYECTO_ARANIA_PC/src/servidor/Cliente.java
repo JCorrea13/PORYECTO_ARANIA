@@ -106,7 +106,7 @@ public class Cliente {
 	}
 
 	public interface CallBackMsg {
-		void onMsg(byte [] datos, int size);
+		void onMsg(byte [] datos, int size) throws IOException;
 	}
 
 	public synchronized byte [] getDatos() {
@@ -115,7 +115,7 @@ public class Cliente {
 
 
 
-	public synchronized void setDatos(byte [] datos, int size) {
+	public synchronized void setDatos(byte [] datos, int size) throws IOException {
 		this.datos = datos;
 		if (callbackmsg != null){
 			callbackmsg.onMsg(datos, size);

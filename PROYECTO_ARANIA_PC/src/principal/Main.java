@@ -11,6 +11,7 @@ import org.opencv.core.Core;
 import pdi.HoughCirclesRun;
 import servidor.Servicio;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 
@@ -40,7 +41,7 @@ public class Main extends Application{
 
     public static void main(String [] args) throws InterruptedException {
         //System.load("C:\\OpenCV\\opencv\\build\\java\\opencv-310");
-        //System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
+        System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
         mc = new ManejadorComandos(new ManejadorComandos.CallBack() {
             @Override
             public void onAck(char comando, int ack) {
@@ -58,7 +59,7 @@ public class Main extends Application{
             }
 
             @Override
-            public void onAck(char comando, int ack, byte[] img) {
+            public void onAck(char comando, int ack, byte[] img) throws IOException {
                 controller.onImagenAck(img);
                 controller.updateLog("Imagen recibida [" + img.length + "]");
                 aEstrella.onImagenAck(img);

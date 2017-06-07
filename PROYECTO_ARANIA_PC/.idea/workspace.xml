@@ -2,23 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/opencv_320.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/algoritmo/AEstrella$1.class" afterPath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/algoritmo/AEstrella$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/algoritmo/AEstrella.class" afterPath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/algoritmo/AEstrella.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/algoritmo/Controller$1.class" afterPath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/algoritmo/Controller$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/algoritmo/Controller.class" afterPath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/algoritmo/Controller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/pdi/HoughCirclesRun.class" afterPath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/pdi/HoughCirclesRun.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/opencv_310.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/pdi/Utils.class" afterPath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/pdi/Utils.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/principal/Main.class" afterPath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/principal/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../APP_ARANIA/APP_ARANIA2/app/src/main/java/com/example/jc/app_arania/MainActivity.java" afterPath="$PROJECT_DIR$/../APP_ARANIA/APP_ARANIA2/app/src/main/java/com/example/jc/app_arania/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/opencv_310.xml" afterPath="$PROJECT_DIR$/.idea/libraries/opencv_310.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/opencv_320.xml" afterPath="$PROJECT_DIR$/.idea/libraries/opencv_320.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PROYECTO_ARANIA_PC.iml" afterPath="$PROJECT_DIR$/PROYECTO_ARANIA_PC.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/principal/Gui.fxml" afterPath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/principal/Gui.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/algoritmo/AEstrella.java" afterPath="$PROJECT_DIR$/src/algoritmo/AEstrella.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/algoritmo/Controller.java" afterPath="$PROJECT_DIR$/src/algoritmo/Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/principal/Gui.fxml" afterPath="$PROJECT_DIR$/src/principal/Gui.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pdi/HoughCirclesRun.java" afterPath="$PROJECT_DIR$/src/pdi/HoughCirclesRun.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pdi/Utils.java" afterPath="$PROJECT_DIR$/src/pdi/Utils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/principal/Main.java" afterPath="$PROJECT_DIR$/src/principal/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/principal/ManejadorComandos.java" afterPath="$PROJECT_DIR$/src/principal/ManejadorComandos.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/servidor/Cliente.java" afterPath="$PROJECT_DIR$/src/servidor/Cliente.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,17 +72,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/principal/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="42" column="10" lean-forward="false" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+            <state relative-caret-position="125">
+              <caret line="62" column="38" lean-forward="false" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#onAck#0;class#1280:2172" expanded="false" />
-                <element signature="method#onAck#1;class#1280:2172" expanded="false" />
-                <element signature="e#2970#2971#0" expanded="true" />
-                <element signature="e#2995#2996#0" expanded="true" />
+                <element signature="method#onAck#0;class#1306:2217" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -96,7 +88,7 @@
       <file leaf-file-name="Servicio.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/servidor/Servicio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="272">
               <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="false" />
@@ -108,8 +100,8 @@
       <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algoritmo/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
-              <caret line="425" column="9" lean-forward="true" selection-start-line="425" selection-start-column="9" selection-end-line="425" selection-end-column="9" />
+            <state relative-caret-position="213">
+              <caret line="399" column="9" lean-forward="false" selection-start-line="399" selection-start-column="9" selection-end-line="399" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -118,8 +110,8 @@
       <file leaf-file-name="Cliente.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/servidor/Cliente.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+            <state relative-caret-position="256">
+              <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -128,7 +120,7 @@
       <file leaf-file-name="AEstrella.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algoritmo/AEstrella.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4325">
+            <state relative-caret-position="2890">
               <caret line="181" column="50" lean-forward="false" selection-start-line="181" selection-start-column="50" selection-end-line="181" selection-end-column="50" />
               <folding>
                 <element signature="e#5964#5965#0" expanded="true" />
@@ -138,13 +130,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HoughCirclesRun.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HoughCirclesRun.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pdi/HoughCirclesRun.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="152">
+              <caret line="51" column="10" lean-forward="false" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pdi/Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -153,8 +157,8 @@
       <file leaf-file-name="ManejadorComandos.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/principal/ManejadorComandos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="44" column="22" lean-forward="false" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -196,27 +200,27 @@
         <option value="$PROJECT_DIR$/src/principal/Paquete.java" />
         <option value="$PROJECT_DIR$/src/principal/Algoritmo.java" />
         <option value="$PROJECT_DIR$/src/servidor/Paquete.java" />
-        <option value="$PROJECT_DIR$/src/servidor/Cliente.java" />
         <option value="$PROJECT_DIR$/src/algoritmo/Gui.fxml" />
         <option value="$PROJECT_DIR$/src/algoritmo/Main.java" />
-        <option value="$PROJECT_DIR$/src/principal/ManejadorComandos.java" />
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/pdi/HoughCircles.java" />
         <option value="$PROJECT_DIR$/src/servidor/Servicio.java" />
-        <option value="$PROJECT_DIR$/src/pdi/Utils.java" />
-        <option value="$PROJECT_DIR$/src/pdi/HoughCirclesRun.java" />
         <option value="$PROJECT_DIR$/src/algoritmo/AEstrella.java" />
-        <option value="$PROJECT_DIR$/src/algoritmo/Controller.java" />
+        <option value="$PROJECT_DIR$/src/pdi/Utils.java" />
         <option value="$PROJECT_DIR$/src/principal/Main.java" />
+        <option value="$PROJECT_DIR$/src/principal/ManejadorComandos.java" />
+        <option value="$PROJECT_DIR$/src/servidor/Cliente.java" />
+        <option value="$PROJECT_DIR$/src/algoritmo/Controller.java" />
+        <option value="$PROJECT_DIR$/src/pdi/HoughCirclesRun.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1942" />
-    <option name="height" value="1042" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -237,6 +241,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -259,10 +264,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PROYECTO_ARANIA_PC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PROYECTO_ARANIA_PC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PROYECTO_ARANIA_PC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PROYECTO_ARANIA_PC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pdi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -277,8 +313,8 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="C:/OpenCV32/opencv/build/java/opencv-320.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/New folder (2)/opencv/build/java/x64" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
@@ -629,30 +665,30 @@
     <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32711306" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32440946" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44634703" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47945204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43464568" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.234375" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23499268" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -696,13 +732,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/servidor/Paquete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="12" column="45" lean-forward="false" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/principal/Algoritmo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -716,10 +745,7 @@
           <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#onAck#0;class#1280:2172" expanded="false" />
-            <element signature="method#onAck#1;class#1280:2172" expanded="false" />
-            <element signature="e#2970#2971#0" expanded="true" />
-            <element signature="e#2995#2996#0" expanded="true" />
+            <element signature="method#onAck#0;class#1306:2217" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -775,10 +801,7 @@
           <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#onAck#0;class#1280:2172" expanded="false" />
-            <element signature="method#onAck#1;class#1280:2172" expanded="false" />
-            <element signature="e#2970#2971#0" expanded="true" />
-            <element signature="e#2995#2996#0" expanded="true" />
+            <element signature="method#onAck#0;class#1306:2217" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -834,10 +857,7 @@
           <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#onAck#0;class#1280:2172" expanded="false" />
-            <element signature="method#onAck#1;class#1280:2172" expanded="false" />
-            <element signature="e#2970#2971#0" expanded="true" />
-            <element signature="e#2995#2996#0" expanded="true" />
+            <element signature="method#onAck#0;class#1306:2217" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -996,37 +1016,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pdi/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2550">
-          <caret line="112" column="1" lean-forward="false" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pdi/HoughCircles.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pdi/HoughCirclesRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algoritmo/AEstrella.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4325">
+        <state relative-caret-position="2890">
           <caret line="181" column="50" lean-forward="false" selection-start-line="181" selection-start-column="50" selection-end-line="181" selection-end-column="50" />
           <folding>
             <element signature="e#5964#5965#0" expanded="true" />
@@ -1037,7 +1036,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/servidor/Servicio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="272">
           <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="false" />
@@ -1045,66 +1044,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servidor/Cliente.java">
+    <entry file="jar://C:/OpenCV/opencv/build/java/opencv-310.jar!/org/opencv/core/CvType.java" />
+    <entry file="jar://C:/OpenCV/opencv/build/java/opencv-310.jar!/org/opencv/core/Core.java" />
+    <entry file="jar://C:/OpenCV/opencv/build/java/opencv-310.jar!/org/opencv/core/Mat.java" />
+    <entry file="file://$PROJECT_DIR$/src/pdi/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/principal/ManejadorComandos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/OpenCV/opencv/build/java/opencv-310.jar!/org/opencv/core/CvType.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/jre/lib/rt.jar!/java/awt/image/WritableRaster.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/OpenCV/opencv/build/java/opencv-310.jar!/org/opencv/core/Core.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="20" column="77" lean-forward="false" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/OpenCV/opencv/build/java/opencv-310.jar!/org/opencv/core/Mat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algoritmo/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="425" column="9" lean-forward="true" selection-start-line="425" selection-start-column="9" selection-end-line="425" selection-end-column="9" />
+        <state relative-caret-position="132">
+          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/principal/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="42" column="10" lean-forward="false" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+        <state relative-caret-position="125">
+          <caret line="62" column="38" lean-forward="false" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#onAck#0;class#1280:2172" expanded="false" />
-            <element signature="method#onAck#1;class#1280:2172" expanded="false" />
-            <element signature="e#2970#2971#0" expanded="true" />
-            <element signature="e#2995#2996#0" expanded="true" />
+            <element signature="method#onAck#0;class#1306:2217" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/principal/ManejadorComandos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="44" column="22" lean-forward="false" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servidor/Cliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algoritmo/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="399" column="9" lean-forward="false" selection-start-line="399" selection-start-column="9" selection-end-line="399" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pdi/HoughCirclesRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="51" column="10" lean-forward="false" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1168,7 +1171,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

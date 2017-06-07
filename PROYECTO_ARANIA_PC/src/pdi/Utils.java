@@ -19,7 +19,7 @@ public class Utils {
 public Mat ColorReprocess(Mat image,double upper_tresh, double lower_tresh)
 {
     //vector escalar con los valores HSV del treshold bajo
-    Scalar lower=new Scalar(lower_tresh,200.0,200.0);
+    Scalar lower=new Scalar(lower_tresh,200.0,15.0);
     // vector escalar con los valores HSV del treshold alto
     Scalar upper=new Scalar(upper_tresh,255.0,255.0);
     //imagen HSV
