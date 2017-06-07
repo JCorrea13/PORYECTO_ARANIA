@@ -1,19 +1,30 @@
 package algoritmo;
 
+import javafx.application.Platform;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.control.*;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
+import org.opencv.core.Core;
+import org.opencv.core.CvType;
+import org.opencv.core.Mat;
+import org.opencv.core.MatOfPoint2f;
+import pdi.HoughCirclesRun;
 import principal.Main;
 import principal.ManejadorComandos;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
+import java.awt.*;
+import java.awt.image.BufferedImage;
 import java.awt.image.RenderedImage;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -40,6 +51,10 @@ public class Controller {
     @FXML private Button btn_atras;
     @FXML private Button btn_gira_izquierda;
     @FXML private Button btn_gira_derecha;
+    @FXML private Button btn_imagen;
+    @FXML private Button btn_distancia;
+
+    @FXML private TextArea txt_log;
 
 
 
@@ -89,6 +104,7 @@ public class Controller {
         aEstrella = AEstrella.getaEstrella(nodos, Main.getMc());
         aEstrella.setNodos(nodos);
         inicializaControles();
+        img_view.setRotate(90);
     }
 
     /**
@@ -370,12 +386,68 @@ public class Controller {
         btn_atras.setOnAction((x) -> Main.ejecutaComando('G'));
         btn_gira_izquierda.setOnAction((x) -> Main.ejecutaComando('B'));
         btn_gira_derecha.setOnAction((x) -> Main.ejecutaComando('F'));
+        btn_imagen.setOnAction((x) -> Main.ejecutaComando('A'));
+        btn_distancia.setOnAction((x) -> Main.ejecutaComando('H'));
     }
 
-    public void onImagenAck(byte [] img){
+    public  void onImagenAck(byte [] img){
+        Image i = new Image(new ByteArrayInputStream(img));
 
-        //img_view.setImage();
+        BufferedImage bi = new BufferedImage(480,640,BufferedImage.TYPE_3BYTE_BGR);
+        bi.getRaster().setDataElements(0,0, 480, 640, img);
+
+        Mat m = img2Mat(bi);
+        Mat rotada = new Mat();
+
+        Core.flip(m, rotada, 1);
+
+        updateLog("Cuadrante de circulo = " + new HoughCirclesRun().run(m));
+
+        img_view.setImage(i);
     }
 
+    public static Mat img2Mat(BufferedImage in)
+    {
+        Mat out;
+        byte[] data;
+        int r, g, b;
+
+        if(in.getType() == BufferedImage.TYPE_INT_RGB)
+        {
+            out = new Mat(240, 320, CvType.CV_8UC3);
+            data = new byte[320 * 240 * (int)out.elemSize()];
+            int[] dataBuff = in.getRGB(0, 0, 320, 240, null, 0, 320);
+            for(int i = 0; i < dataBuff.length; i++)
+            {
+                data[i*3] = (byte) ((dataBuff[i] >> 16) & 0xFF);
+                data[i*3 + 1] = (byte) ((dataBuff[i] >> 8) & 0xFF);
+                data[i*3 + 2] = (byte) ((dataBuff[i] >> 0) & 0xFF);
+            }
+        }
+        else
+        {
+            out = new Mat(640, 480, 16);
+            data = new byte[640 * 480 * (int)out.elemSize()];
+            int[] dataBuff = in.getRGB(0, 0, 640, 480, null, 0, 320);
+            for(int i = 0; i < dataBuff.length; i++)
+            {
+                r = (byte) ((dataBuff[i] >> 16) & 0xFF);
+                g = (byte) ((dataBuff[i] >> 8) & 0xFF);
+                b = (byte) ((dataBuff[i] >> 0) & 0xFF);
+                data[i] = (byte)((0.21 * r) + (0.71 * g) + (0.07 * b)); //luminosity
+            }
+        }
+        out.put(0, 0, data);
+        return out;
+    }
+
+    public  void updateLog(String nuevo_texto){
+
+        Platform.runLater(new Runnable(){
+            public void run() {
+                txt_log.setText(txt_log.getText()+ "\n" + nuevo_texto);
+            }
+        });
+    }
 
 }

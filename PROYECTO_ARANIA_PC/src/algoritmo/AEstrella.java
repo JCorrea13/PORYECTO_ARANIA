@@ -179,7 +179,7 @@ public class AEstrella {
      */
     private boolean analizaImagen() throws IOException {
 
-        Mat img = new Mat(640,408, CvType.CV_8UC1);
+        Mat img = new Mat(640,408, CvType.CV_8UC3);
         img.put(0,0,imagen_actual);
         int cuadrante_circulo = hcr.run(img);
         int cuadrosXcaminar = 0;

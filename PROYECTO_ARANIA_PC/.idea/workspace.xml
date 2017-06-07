@@ -2,38 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/JavaFXApp/JavaFXApp.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/algoritmo/AEstrella$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/algoritmo/AEstrella.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/algoritmo/Controller$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/algoritmo/Controller.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/algoritmo/Nodo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/algoritmo/Selector.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/pdi/HoughCircles.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/pdi/HoughCirclesRun.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/pdi/Utils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/opencv_310.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/principal/Gui.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algoritmo/AEstrella.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algoritmo/Controller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algoritmo/Nodo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algoritmo/Selector.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pdi/HoughCircles.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pdi/HoughCirclesRun.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pdi/Utils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/principal/Gui.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/opencv_320.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/algoritmo/AEstrella$1.class" afterPath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/algoritmo/AEstrella$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/algoritmo/AEstrella.class" afterPath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/algoritmo/AEstrella.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/algoritmo/Controller$1.class" afterPath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/algoritmo/Controller$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/algoritmo/Controller.class" afterPath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/algoritmo/Controller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/pdi/HoughCirclesRun.class" afterPath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/pdi/HoughCirclesRun.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/pdi/Utils.class" afterPath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/pdi/Utils.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/principal/Main.class" afterPath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/principal/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/sample/Main.class" afterPath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/sample/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/servidor/Servicio.class" afterPath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/servidor/Servicio.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../APP_ARANIA/APP_ARANIA2/app/build.gradle" afterPath="$PROJECT_DIR$/../APP_ARANIA/APP_ARANIA2/app/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../APP_ARANIA/APP_ARANIA2/app/src/main/java/com/example/jc/app_arania/MainActivity.java" afterPath="$PROJECT_DIR$/../APP_ARANIA/APP_ARANIA2/app/src/main/java/com/example/jc/app_arania/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../APP_ARANIA/APP_ARANIA2/build.gradle" afterPath="$PROJECT_DIR$/../APP_ARANIA/APP_ARANIA2/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/opencv_310.xml" afterPath="$PROJECT_DIR$/.idea/libraries/opencv_310.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PROYECTO_ARANIA_PC.iml" afterPath="$PROJECT_DIR$/PROYECTO_ARANIA_PC.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/principal/Gui.fxml" afterPath="$PROJECT_DIR$/out/production/PROYECTO_ARANIA_PC/principal/Gui.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/algoritmo/AEstrella.java" afterPath="$PROJECT_DIR$/src/algoritmo/AEstrella.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/algoritmo/Controller.java" afterPath="$PROJECT_DIR$/src/algoritmo/Controller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/principal/Gui.fxml" afterPath="$PROJECT_DIR$/src/principal/Gui.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/principal/Main.java" afterPath="$PROJECT_DIR$/src/principal/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Main.java" afterPath="$PROJECT_DIR$/src/sample/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/servidor/Servicio.java" afterPath="$PROJECT_DIR$/src/servidor/Servicio.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,12 +77,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/principal/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="59" column="9" lean-forward="false" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
-              <folding />
+            <state relative-caret-position="128">
+              <caret line="42" column="10" lean-forward="false" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#onAck#0;class#1280:2172" expanded="false" />
+                <element signature="method#onAck#1;class#1280:2172" expanded="false" />
+                <element signature="e#2970#2971#0" expanded="true" />
+                <element signature="e#2995#2996#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,9 +96,11 @@
       <file leaf-file-name="Servicio.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/servidor/Servicio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-              <folding />
+            <state relative-caret-position="400">
+              <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,30 +108,31 @@
       <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algoritmo/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8775">
-              <caret line="377" column="5" lean-forward="false" selection-start-line="377" selection-start-column="5" selection-end-line="377" selection-end-column="5" />
+            <state relative-caret-position="584">
+              <caret line="425" column="9" lean-forward="true" selection-start-line="425" selection-start-column="9" selection-end-line="425" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AEstrella.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Cliente.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/servidor/Cliente.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AEstrella.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algoritmo/AEstrella.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="194" column="40" lean-forward="true" selection-start-line="194" selection-start-column="40" selection-end-line="194" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pdi/Utils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2605">
-              <caret line="112" column="1" lean-forward="true" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
+            <state relative-caret-position="4325">
+              <caret line="181" column="50" lean-forward="false" selection-start-line="181" selection-start-column="50" selection-end-line="181" selection-end-column="50" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#5964#5965#0" expanded="true" />
+                <element signature="e#6004#6005#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -147,8 +141,8 @@
       <file leaf-file-name="HoughCirclesRun.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pdi/HoughCirclesRun.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="175">
+              <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,21 +150,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HoughCircles.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pdi/HoughCircles.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ManejadorComandos.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/principal/ManejadorComandos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1550">
-              <caret line="74" column="71" lean-forward="false" selection-start-line="74" selection-start-column="71" selection-end-line="74" selection-end-column="71" />
+            <state relative-caret-position="109">
+              <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -186,6 +170,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Mat</find>
+    </findStrings>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -212,13 +201,13 @@
         <option value="$PROJECT_DIR$/src/algoritmo/Main.java" />
         <option value="$PROJECT_DIR$/src/principal/ManejadorComandos.java" />
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
-        <option value="$PROJECT_DIR$/src/algoritmo/Controller.java" />
-        <option value="$PROJECT_DIR$/src/principal/Main.java" />
         <option value="$PROJECT_DIR$/src/pdi/HoughCircles.java" />
         <option value="$PROJECT_DIR$/src/servidor/Servicio.java" />
-        <option value="$PROJECT_DIR$/src/pdi/HoughCirclesRun.java" />
         <option value="$PROJECT_DIR$/src/pdi/Utils.java" />
+        <option value="$PROJECT_DIR$/src/pdi/HoughCirclesRun.java" />
         <option value="$PROJECT_DIR$/src/algoritmo/AEstrella.java" />
+        <option value="$PROJECT_DIR$/src/algoritmo/Controller.java" />
+        <option value="$PROJECT_DIR$/src/principal/Main.java" />
       </list>
     </option>
   </component>
@@ -248,9 +237,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -259,8 +245,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PROYECTO_ARANIA_PC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -270,87 +256,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="PROYECTO_ARANIA_PC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PROYECTO_ARANIA_PC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PROYECTO_ARANIA_PC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PROYECTO_ARANIA_PC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PROYECTO_ARANIA_PC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="principal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PROYECTO_ARANIA_PC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PROYECTO_ARANIA_PC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pdi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PROYECTO_ARANIA_PC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PROYECTO_ARANIA_PC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algoritmo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -364,10 +277,10 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/SceneBuilder/app/SceneBuilder.cfg" />
+    <property name="last_opened_file_path" value="C:/OpenCV32/opencv/build/java/opencv-320.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
   <component name="RecentsManager">
@@ -722,23 +635,24 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32711306" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44634703" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47420418" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47945204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5083333" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.234375" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16324201" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -748,7 +662,6 @@
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32711306" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -760,7 +673,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="25" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algoritmo/Controller.java</url>
+          <line>395</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algoritmo/Controller.java</url>
+          <line>414</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="33" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -769,30 +696,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servidor/Servicio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servidor/Cliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1593">
-          <caret line="59" column="35" lean-forward="false" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/servidor/Paquete.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -811,7 +714,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#onAck#0;class#1280:2172" expanded="false" />
+            <element signature="method#onAck#1;class#1280:2172" expanded="false" />
+            <element signature="e#2970#2971#0" expanded="true" />
+            <element signature="e#2995#2996#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -864,7 +773,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#onAck#0;class#1280:2172" expanded="false" />
+            <element signature="method#onAck#1;class#1280:2172" expanded="false" />
+            <element signature="e#2970#2971#0" expanded="true" />
+            <element signature="e#2995#2996#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -917,7 +832,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#onAck#0;class#1280:2172" expanded="false" />
+            <element signature="method#onAck#1;class#1280:2172" expanded="false" />
+            <element signature="e#2970#2971#0" expanded="true" />
+            <element signature="e#2995#2996#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1042,13 +963,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servidor/Cliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="52" column="24" lean-forward="true" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/principal/Gui.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1073,16 +987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/principal/ManejadorComandos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1550">
-          <caret line="74" column="71" lean-forward="false" selection-start-line="74" selection-start-column="71" selection-end-line="74" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algoritmo/Main.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Math.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
@@ -1092,37 +996,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algoritmo/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8775">
-          <caret line="377" column="5" lean-forward="false" selection-start-line="377" selection-start-column="5" selection-end-line="377" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/principal/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="59" column="9" lean-forward="false" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servidor/Servicio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pdi/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2605">
-          <caret line="112" column="1" lean-forward="true" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="2550">
+          <caret line="112" column="1" lean-forward="false" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1130,14 +1008,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pdi/HoughCirclesRun.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="175">
+          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1146,9 +1026,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algoritmo/AEstrella.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="194" column="40" lean-forward="true" selection-start-line="194" selection-start-column="40" selection-end-line="194" selection-end-column="40" />
+        <state relative-caret-position="4325">
+          <caret line="181" column="50" lean-forward="false" selection-start-line="181" selection-start-column="50" selection-end-line="181" selection-end-column="50" />
+          <folding>
+            <element signature="e#5964#5965#0" expanded="true" />
+            <element signature="e#6004#6005#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servidor/Servicio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servidor/Cliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/principal/ManejadorComandos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/OpenCV/opencv/build/java/opencv-310.jar!/org/opencv/core/CvType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/OpenCV/opencv/build/java/opencv-310.jar!/org/opencv/core/Core.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="20" column="77" lean-forward="false" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/OpenCV/opencv/build/java/opencv-310.jar!/org/opencv/core/Mat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algoritmo/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="425" column="9" lean-forward="true" selection-start-line="425" selection-start-column="9" selection-end-line="425" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/principal/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="42" column="10" lean-forward="false" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#onAck#0;class#1280:2172" expanded="false" />
+            <element signature="method#onAck#1;class#1280:2172" expanded="false" />
+            <element signature="e#2970#2971#0" expanded="true" />
+            <element signature="e#2995#2996#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1231,7 +1188,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>opencv-310</last-edited>
+          <last-edited>opencv-320</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

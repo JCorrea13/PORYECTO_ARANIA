@@ -46,8 +46,8 @@ public class MainActivity extends AppCompatActivity implements Camara.CallBack, 
     private ImageView imageView;
     private Cliente.CallBackMsg self = this;
 
-    private static final String IP = "192.168.1.88";
-    //private static final String IP = "192.168.43.33";
+    //private static final String IP = "192.168.1.88";
+    private static final String IP = "192.168.43.33";
     private static final int PUERTO = 1500;
 
     //Objetos para manejo de comandos
